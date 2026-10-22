@@ -1,0 +1,10 @@
+a branch is an independentt line of development , a movable pointer to commmit.
+
+:git checkout -b login 
+//this would switch to the newly created branch
+:git branch -d feature-login 
+this would create a new branch but would not switch to it automatically
+
+other ways to create
+
+git switch -c <new-branch- name>
